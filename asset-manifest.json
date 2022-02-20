@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/genshin/static/css/main.d8eabecd.css",
+    "main.js": "/genshin/static/js/main.8128163b.js",
+    "index.html": "/genshin/index.html",
+    "main.d8eabecd.css.map": "/genshin/static/css/main.d8eabecd.css.map",
+    "main.8128163b.js.map": "/genshin/static/js/main.8128163b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8eabecd.css",
+    "static/js/main.8128163b.js"
+  ]
+}

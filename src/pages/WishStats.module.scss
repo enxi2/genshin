@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  max-width: 960px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 1rem;
+
+  & > * + * {
+    margin-top: 2rem;
+  }
+}
+
+.prompt {
+  text-align: center;
+
+  span {
+    white-space: nowrap;
+  }
+
+  p {
+    margin: 0;
+    line-height: 4rem;
+  }
+
+  button {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  p,
+  select {
+    font-size: 2rem;
+  }
+}
+
+.results {
+  text-align: center;
+
+  .summary {
+    margin: 1rem auto;
+    font-size: 2rem;
+  }
+}
+
+.pulls {
+  position: relative;
+  text-decoration: underline;
+}

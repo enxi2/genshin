@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import { HashRouter, Route, Routes } from "react-router-dom";
 
 import App from "./App";
-import Elites from "./elites/Elites";
-import FastElites from "./elites/FastElites";
+import Elites from "./pages/Elites";
+import FastElites from "./pages/FastElites";
 import WishStats from "./pages/WishStats";
 
 import "./index.css";

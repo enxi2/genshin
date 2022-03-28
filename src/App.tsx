@@ -12,6 +12,11 @@ function App() {
       <Link to="/fastelites" className={styles.link}>
         80-minute Elite Cap
       </Link>
+      {/*
+      <Link to="/wishstats" className={styles.link}>
+        Wish Statistics
+      </Link>
+      */}
     </div>
   );
 }

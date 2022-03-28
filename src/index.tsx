@@ -5,6 +5,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import Elites from "./elites/Elites";
 import FastElites from "./elites/FastElites";
+import WishStats from "./pages/WishStats";
 
 import "./index.css";
 
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/elites" element={<Elites />} />
         <Route path="/fastelites" element={<FastElites />} />
+        <Route path="/wishstats" element={<WishStats />} />
         <Route path="/" element={<App />} />
       </Routes>
     </HashRouter>

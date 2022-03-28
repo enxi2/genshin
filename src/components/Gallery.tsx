@@ -65,7 +65,7 @@ function Preview(props: {
   useEffect(() => {
     if (image.current != null) {
       panzoom.current = Panzoom(image.current, {
-        minScale: 0.5,
+        minScale: 0.1,
         maxScale: 2,
       });
       if (image.current.parentElement != null) {
@@ -76,10 +76,6 @@ function Preview(props: {
       }
     }
   }, []);
-
-  useEffect(() => {
-    resetPanzoom();
-  }, [resetPanzoom]);
 
   useHotkeys("escape", close);
   useHotkeys("0", resetPanzoom);
@@ -94,6 +90,7 @@ function Preview(props: {
         src={src ?? ""}
         alt=""
         onClick={preventDefault}
+        onLoad={resetPanzoom}
         ref={image}
       />
       <div className={style.close} onClick={close}>

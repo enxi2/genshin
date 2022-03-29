@@ -2,7 +2,9 @@
 
 ```
 $ make
-$ ./roll.x standard 67108864 0
-$ ./stats.x standard
+$ ./roll.x event 4294967296 0
+$ ./freqs.x
 $ python3 percentiles.py
 ```
+
+Takes 2.5 minutes to generate a 4GB file on a modern high-end CPU.
